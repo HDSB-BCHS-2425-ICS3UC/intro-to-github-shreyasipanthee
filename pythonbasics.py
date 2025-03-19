@@ -32,14 +32,12 @@ print(logged_out)
 
 print(bool(logged_in + logged_out))
 
-"""
 #Creating a variable to store a name
 name = input("Enter you name: ")
 print("Your name is " + name)
 
 #Creating age variable to read the inputed age from the user
 age = int(input("enter your age"))
-"""
 
 grade = input("Enter your grade ")
 print("your grade is "+ grade)

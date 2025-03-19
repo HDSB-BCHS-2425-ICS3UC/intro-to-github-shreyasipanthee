@@ -14,9 +14,9 @@ print(message.swapcase())#Swaps the cases of each letter in the string
 #Feb,27,2025 class assignment
 #Quote strip functions
 quote = "    This is a string   "
-print(quote.strip())
-print(quote.lstrip())
-print(quote.rstrip())
+print(quote.strip())#strips whitespace before and after entered text
+print(quote.lstrip())#strips the leading whitespcae from the entered text 
+print(quote.rstrip())#strips the trailing whitespace from the entered text
 
 string = str(input("Enter a message "))
 nowhitespace = (string.rstrip())
