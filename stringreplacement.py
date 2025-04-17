@@ -5,5 +5,5 @@ First_last_name = input("Enter your first and last name: ")
 First_last_name = First_last_name.strip()
 list = First_last_name.split(" ")
 last_name = list[1]
-last_name = "*****"
+last_name = "*" * len(list[-1])
 print(list[0] + " " + last_name)
